@@ -21,7 +21,7 @@ int main()
     int positionOfSmallest;
     int i,j;
     int t;
-    for(i = 0; i < n; i++)
+    for(i = 0; i < n-1; i++)
     {
         smallest = unsortedArray[i];
         positionOfSmallest = i;
