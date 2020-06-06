@@ -120,6 +120,11 @@ int main()
         printf("\n");
     }
 */
+    double total_time;
+	clock_t start, end;
+	start = clock();
+    srand(time(NULL));
+
     int a[n-1];
     for(int k = 0; k < n-1; k++)
     {
@@ -137,5 +142,10 @@ int main()
     //printf("%d\n", count); 
 
     printf("Minimum distance is %d \n",min);
+    end = clock();
+	//time count stops 
+	total_time = ((double) (end - start)) / CLOCKS_PER_SEC;
+	//calulate total time
+    printf("total time taken: %lf \n", total_time);
 	return 0; 
 }
