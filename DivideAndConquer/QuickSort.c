@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 
+//The partition method used is Hoares Partition. 
 int Partition(int unsortedArray[], int StartIndex, int EndIndex)
 {
     int i = StartIndex;
