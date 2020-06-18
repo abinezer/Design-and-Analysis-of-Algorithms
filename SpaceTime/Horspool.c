@@ -63,8 +63,6 @@ int main()
     char PatternText[sizeOfPattern];
     printf("Enter the pattern : \n");
     scanf("%s", PatternText);
-    //printf("Enter the size of the alphabet: \n");
-    //scanf("%d", &AlphabetSize);
 
     double total_time;
 	clock_t start, end;
